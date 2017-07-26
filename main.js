@@ -79,7 +79,7 @@ console.log(getLength("JavaScript sucks"))
 // Then, write and example of using the function.
 
 function greaterThan(a,b) {
-  if (a > b){
+  if (a < b){
     return true;
   }
   else {
