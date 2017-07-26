@@ -51,7 +51,7 @@ function sum(a,b) {
   return a + b;
 
 }
-console.log(sum(1,2))
+console.log(sum(8,2))
 
 // 5.
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
@@ -61,7 +61,7 @@ function avg(a,b,c) {
   return ((a + b + c) / 3);
 
 }
-console.log(avg(3,4,8))
+console.log(avg(5,6,1))
 
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
@@ -70,7 +70,7 @@ console.log(avg(3,4,8))
 function getLength(string) {
   return string.length;
 }
-console.log(getLength("The universe loves you"))
+console.log(getLength("JavaScript sucks"))
 
 // 7.
 // Write a function called `greaterThan` that takes two parameters
@@ -86,7 +86,7 @@ function greaterThan(a,b) {
     return false;
   }
 }
-console.log(greaterThan(8,4))
+console.log(greaterThan(9,3))
 
 // 8.
 // Write a function called `greet` that takes a
@@ -96,11 +96,11 @@ console.log(greaterThan(8,4))
 // Then, write and example of using the function.
 
 function greet(name) {
-  let name = "Robert"
-  return("Hello," + name + "!")
+  return ("Hello," + name + "!")
 
 }
-console.log("greet");
+
+console.log(greet(" Robert"));
 
 // 9.
 // Write a function called `madlib` that takes 4 or more parameters (words).
@@ -112,7 +112,7 @@ console.log("greet");
 // Then, write and example of using the function.
 
 function madlib(noun,verb,adj,noun2) {
-  return ("The" + noun + adj + verb + "around the" + noun2)
+  return ("The " + noun + " " + adj + " " + verb + " through the " + noun2)
 }
 
-console.log(madlib("fox", "ran", "quickly", "house"))
+console.log(madlib("gazelle", "galloped", "quickly", "plains"))
